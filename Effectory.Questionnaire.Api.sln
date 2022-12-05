@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effectory.Questionnaire.Api", "Effectory.Questionnaire.Api\Effectory.Questionnaire.Api.csproj", "{122E3057-49E9-4208-802E-34BDB3C62AEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "effectory.questionnaire.api", "Effectory.Questionnaire.Api\effectory.questionnaire.api.csproj", "{122E3057-49E9-4208-802E-34BDB3C62AEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{816B2252-BE77-4818-B9AB-9452D329BEDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C364B8AB-87ED-4603-B26E-88BBDA00F694}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{689C8A0B-9FF1-4CB3-A368-DE4475381546}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7FBC9D34-795D-432B-B519-5035FDDEA363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "effectory.questionnaire.application", "effectory.questionnaire.application\effectory.questionnaire.application.csproj", "{5D414222-30B4-4444-8076-563478E5CFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "effectory.questionnaire.domain", "effectory.questionnaire.domain\effectory.questionnaire.domain.csproj", "{1D381B3E-0207-4C28-8985-BC569FA7D02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "effectory.questionnaire.infrastructure", "effectory.questionnaire.infrastructure\effectory.questionnaire.infrastructure.csproj", "{E30CF5D5-63BB-4432-9AF8-E960D8EB78C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,27 @@ Global
 		{122E3057-49E9-4208-802E-34BDB3C62AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122E3057-49E9-4208-802E-34BDB3C62AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122E3057-49E9-4208-802E-34BDB3C62AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D414222-30B4-4444-8076-563478E5CFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D414222-30B4-4444-8076-563478E5CFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D414222-30B4-4444-8076-563478E5CFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D414222-30B4-4444-8076-563478E5CFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D381B3E-0207-4C28-8985-BC569FA7D02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D381B3E-0207-4C28-8985-BC569FA7D02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D381B3E-0207-4C28-8985-BC569FA7D02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D381B3E-0207-4C28-8985-BC569FA7D02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30CF5D5-63BB-4432-9AF8-E960D8EB78C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30CF5D5-63BB-4432-9AF8-E960D8EB78C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30CF5D5-63BB-4432-9AF8-E960D8EB78C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30CF5D5-63BB-4432-9AF8-E960D8EB78C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{122E3057-49E9-4208-802E-34BDB3C62AEF} = {C364B8AB-87ED-4603-B26E-88BBDA00F694}
+		{5D414222-30B4-4444-8076-563478E5CFD2} = {816B2252-BE77-4818-B9AB-9452D329BEDB}
+		{1D381B3E-0207-4C28-8985-BC569FA7D02D} = {689C8A0B-9FF1-4CB3-A368-DE4475381546}
+		{E30CF5D5-63BB-4432-9AF8-E960D8EB78C5} = {7FBC9D34-795D-432B-B519-5035FDDEA363}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C4295EB-09A5-4AF4-AB7C-19F94EC85D1E}
