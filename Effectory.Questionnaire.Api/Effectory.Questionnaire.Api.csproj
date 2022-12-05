@@ -15,4 +15,10 @@
     <ProjectReference Include="..\effectory.questionnaire.infrastructure\effectory.questionnaire.infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Json\questionnaire.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
