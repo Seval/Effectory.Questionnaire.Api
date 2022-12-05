@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\effectory.questionnaire.domain\effectory.questionnaire.domain.csproj" />
+    <ProjectReference Include="..\effectory.questionnaire.infrastructure\effectory.questionnaire.infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
